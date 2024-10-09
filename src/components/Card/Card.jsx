@@ -32,7 +32,7 @@ export default function ProductCard() {
       <div className="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
         <div className="shrink-0 max-w-md lg:max-w-lg mx-auto">
           <img className="w-full dark:hidden h-[350px]" src={products.image} alt="" />
-          
+          <img className="w-full  dark:block" src={products.title} alt="" />
         </div>
 
         <div className="mt-6 sm:mt-8 lg:mt-0">
